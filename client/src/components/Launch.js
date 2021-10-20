@@ -43,7 +43,7 @@ const Launch = () => {
           <h4 className="mb-3">Launch Details</h4>
           <ul className="list-group">
             <li className="list-group-item">
-              Flight Number: {data?.launch.flight_number}
+              Flight Number1: {data?.launch.flight_number}
             </li>
             <li className="list-group-item">
               Launch Year: {data?.launch.launch_year}
