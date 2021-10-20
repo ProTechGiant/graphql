@@ -1,6 +1,6 @@
 import React from "react";
 import { gql, useQuery } from "@apollo/client";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import classNames from "classnames";
 
 const LAUNCH_QUERY = gql`
